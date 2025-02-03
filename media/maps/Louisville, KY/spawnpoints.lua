@@ -55,9 +55,9 @@ function SpawnPoints()
         },
           securityguard = {
             {worldX = 45, worldY = 4, posX = 118, posY = 130, posZ = 4}, --hardspawn rooftop
-            {worldX = 45, worldY = 19, posX = 149, posY = 155, posZ = 0},
+            {worldX = 45, worldY = 19, posX = 77, posY = 186, posZ = 3}, --hardspawn rooftop
             {worldX = 44, worldY = 18, posX = 58, posY = 38, posZ = 0},
-            {worldX = 41, worldY = 17, posX = 245, posY = 80, posZ = 0},
+            {worldX = 41, worldY = 17, posX = 288, posY = 39, posZ = 0},
             {worldX = 42, worldY = 10, posX = 285, posY = 115, posZ = 0},
         },
          -- Commented to prevent any occupation to use these spawns
