@@ -4,7 +4,7 @@ function SpawnPoints()
         -- Goto https://map.projectzomboid.com/, toggle "Overlay Grid". Yellow squares = Cell = worldX & worldY
         -- Rel = posX & posY, posZ is the floor level (0 = ground floor)
         chef = {
-            {worldX = 43, worldY = 6, posX = 24, posY = 127, posZ = 4}, --hard spawn (fixed)
+            {worldX = 43, worldY = 6, posX = 24, posY = 127, posZ = 5}, --hard spawn (fixed) rooftop
             {worldX = 41, worldY = 10, posX = 5, posY = 269, posZ = 0},
             {worldX = 46, worldY = 10, posX = 156, posY = 191, posZ = 0},
             {worldX = 44, worldY = 4, posX = 274, posY = 206, posZ = 0},
@@ -14,12 +14,12 @@ function SpawnPoints()
             {worldX = 42, worldY = 7, posX = 202, posY = 292, posZ = 0},
             {worldX = 40, worldY = 4, posX = 111, posY = 75, posZ = 0},
             {worldX = 40, worldY = 6, posX = 11, posY = 147, posZ = 0},
-            {worldX = 43, worldY = 6, posX = 150, posY = 16, posZ = 4}, --hard spawn (fixed)
+            {worldX = 43, worldY = 6, posX = 183, posY = 37, posZ = 5}, --hard spawn (fixed) rooftop
             {worldX = 45, worldY = 11, posX = 241, posY = 274, posZ = 0},
             {worldX = 46, worldY = 5, posX = 34, posY = 126, posZ = 0},
         },
           doctor = {
-            {worldX = 41, worldY = 12, posX = 75, posY = 118, posZ = 3}, --hard spawn (fixed)
+            {worldX = 40, worldY = 9, posX = 181, posY = 204, posZ = 3}, --hard spawn (fixed) rooftop
             {worldX = 43, worldY = 4, posX = 54, posY = 284, posZ = 0},
             {worldX = 41, worldY = 7, posX = 155, posY = 250, posZ = 0},
             {worldX = 44, worldY = 6, posX = 159, posY = 252, posZ = 1}, --(fixed)
@@ -44,17 +44,17 @@ function SpawnPoints()
             {worldX = 40, worldY = 4, posX = 267, posY = 266, posZ = 0},
             {worldX = 46, worldY = 9, posX = 22, posY = 74, posZ = 0}, --(fixed)
             {worldX = 44, worldY = 10, posX = 245, posY = 129, posZ = 0},
-            {worldX = 42, worldY = 6, posX = 173, posY = 11, posZ = 6}, --hardspawn (fixed)
+            {worldX = 42, worldY = 6, posX = 165, posY = 31, posZ = 6}, --hardspawn (fixed) rooftop
         },
           repairman = {
             {worldX = 41, worldY = 12, posX = 291, posY = 44, posZ = 0}, --(fixed)
             {worldX = 40, worldY = 4, posX = 225, posY = 172, posZ = 1}, --(fixed)
             {worldX = 44, worldY = 4, posX = 117, posY = 53, posZ = 1}, --(fixed)
-            {worldX = 40, worldY = 4, posX = 66, posY = 224, posZ = 4}, --hardspawn (fixed)
+            {worldX = 40, worldY = 4, posX = 77, posY = 242, posZ = 2}, --hardspawn (fixed) rooftop
             {worldX = 40, worldY = 5, posX = 111, posY = 125, posZ = 0},
         },
           securityguard = {
-            {worldX = 45, worldY = 4, posX = 113, posY = 64, posZ = 0}, --hardspawn
+            {worldX = 45, worldY = 4, posX = 118, posY = 130, posZ = 4}, --hardspawn rooftop
             {worldX = 45, worldY = 19, posX = 149, posY = 155, posZ = 0},
             {worldX = 44, worldY = 18, posX = 58, posY = 38, posZ = 0},
             {worldX = 41, worldY = 17, posX = 245, posY = 80, posZ = 0},
@@ -73,7 +73,7 @@ function SpawnPoints()
           {worldX = 48, worldY = 13, posX = 125, posY = 112, posZ = 0},
           {worldX = 41, worldY = 14, posX = 261, posY = 41, posZ = 0},
           {worldX = 40, worldY = 4, posX = 222, posY = 118, posZ = 0},
-          {worldX = 42, worldY = 5, posX = 20, posY = 204, posZ = 3}, --hardspawn (fixed)
+          {worldX = 42, worldY = 5, posX = 37, posY = 275, posZ = 6}, --hardspawn (fixed) rooftop
         },
         farmer = {
           {worldX = 45, worldY = 12, posX = 215, posY = 88, posZ = 0}, --hardspawn 
@@ -99,7 +99,7 @@ function SpawnPoints()
         burgerflipper = {
           {worldX = 45, worldY = 19, posX = 103, posY = 53, posZ = 0},
           {worldX = 45, worldY = 10, posX = 20, posY = 23, posZ = 0},
-          {worldX = 45, worldY = 4, posX = 119, posY = 131, posZ = 0}, --hardspawn (fixed)
+          {worldX = 45, worldY = 4, posX = 118, posY = 130, posZ = 4}, --hardspawn (fixed) rooftop
           {worldX = 44, worldY = 5, posX = 48, posY = 198, posZ = 0},
           {worldX = 43, worldY = 5, posX = 176, posY = 135, posZ = 0},
         },
@@ -108,21 +108,21 @@ function SpawnPoints()
           {worldX = 43, worldY = 7, posX = 214, posY = 24, posZ = 0},
           {worldX = 44, worldY = 9, posX = 24, posY = 270, posZ = 0},
           {worldX = 43, worldY = 4, posX = 41, posY = 278, posZ = 0},
-          {worldX = 41, worldY = 12, posX = 66, posY = 6, posZ = 2}, --hardspawn (fixed)
+          {worldX = 41, worldY = 10, posX = 23, posY = 262, posZ = 1}, --hardspawn (fixed) rooftop
         },
         fitnessInstructor = {
           {worldX = 42, worldY = 3, posX = 41, posY = 240, posZ = 0},
           {worldX = 43, worldY = 5, posX = 236, posY = 76, posZ = 0}, --(fixed)
           {worldX = 43, worldY = 5, posX = 54, posY = 46, posZ = 0},
           {worldX = 41, worldY = 4, posX = 9, posY = 232, posZ = 0}, --(fixed)
-          {worldX = 43, worldY = 6, posX = 120, posY = 29, posZ = 5}, --hardspawn (fixed)
+          {worldX = 43, worldY = 6, posX = 106, posY = 30, posZ = 5}, --hardspawn (fixed) rooftop
         },
         mechanics = {
           {worldX = 42, worldY = 7, posX = 47, posY = 8, posZ = 0},
           {worldX = 40, worldY = 5, posX = 266, posY = 68, posZ = 0},
           {worldX = 43, worldY = 5, posX = 212, posY = 250, posZ = 0},
           {worldX = 42, worldY = 11, posX = 30, posY = 219, posZ = 0},
-          {worldX = 40, worldY = 9, posX = 162, posY = 185, posZ = 2}, --hardspawn (fixed)
+          {worldX = 40, worldY = 9, posX = 128, posY = 233, posZ = 3}, --hardspawn (fixed) rooftop
         },
         electrician = {
           {worldX = 49, worldY = 13, posX = 90, posY = 172, posZ = 0}, --hardspawn
@@ -136,7 +136,7 @@ function SpawnPoints()
           {worldX = 40, worldY = 4, posX = 205, posY = 86, posZ = 1}, --(fixed)
           {worldX = 40, worldY = 4, posX = 142, posY = 193, posZ = 0},
           {worldX = 40, worldY = 5, posX = 45, posY = 202, posZ = 0},
-          {worldX = 43, worldY = 5, posX = 243, posY = 128, posZ = 5}, --hardspawn (fixed)
+          {worldX = 43, worldY = 5, posX = 237, posY = 124, posZ = 6}, --hardspawn (fixed) rooftop
         },
         metalworker = {
           {worldX = 43, worldY = 5, posX = 273, posY = 96, posZ = 0},
